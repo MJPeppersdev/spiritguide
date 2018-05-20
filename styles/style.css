@@ -1,0 +1,161 @@
+#github-link {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    height: 40px;
+    width: 40px;
+    z-index: 10;
+    border-radius: 50%;
+    box-sizing: border-box;
+    background-image: url("mjplogo.png");
+    background-position: center center;
+    background-size: cover;
+    opacity: 0.4;
+    transition: all 0.25s;
+}
+
+#github-link:hover {
+    opacity: 0.8;
+    box-shadow: 0 0 6px #efefef;
+}
+
+body,
+html {
+    background-color: #000845;
+    margin: 0px;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+#lottie {
+    background-color: #000845;
+    width: 100%;
+    height: 100%;
+    min-width: 600px;
+    min-height: 400px;
+    /*width:1024px;*/
+    /*height:1024px;*/
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display: block;
+    overflow: hidden;
+    transform: translate3d(0, 0, 0);
+    box-sizing: border-box;
+    /*margin: auto;*/
+    /*display:none;*/
+}
+
+.email_input_front {
+    pointer-events: none;
+}
+
+.email_input,
+.password_input {
+    width: 290px;
+    height: 70px;
+    font-size: 30px;
+    text-align: center;
+    border: 0;
+    padding: 0;
+    color: white;
+    background-color: transparent;
+    box-sizing: border-box;
+    padding: 10px 10px;
+}
+
+.password_input {
+    width: 340px;
+}
+
+.email_input:focus {
+    outline: none;
+}
+
+.Scene_1_box_1 .at,
+.Scene_1_box_1 .domain,
+.Scene_1_box_2 .user,
+.Scene_1_box_2 .domain,
+.Scene_1_box_3 .user,
+.Scene_1_box_3 .at {
+    display: none !important;
+}
+
+.master {
+    overflow: visible !important;
+}
+
+.master>div {
+    pointer-events: none;
+}
+
+.master>div>div {
+    pointer-events: all;
+}
+
+#submit_button_init,
+#submit_button_email,
+#submit_button_password,
+#submit_button_traits,
+#submit_button_slider,
+#submit_button_year {
+    cursor: pointer;
+}
+
+#submit_button_email div,
+#submit_button_slider div,
+#submit_button_password div,
+.SCENE_3_Question {
+    pointer-events: none;
+}
+
+#submit_button_email div svg,
+#submit_button_email div svg *,
+#submit_button_slider div svg *,
+#submit_button_password div svg,
+#submit_button_password div svg * {
+    pointer-events: all;
+}
+
+.scene_3_checkbox {
+    cursor: pointer;
+}
+
+#year_txt {
+    -webkit-user-select: none;
+    /* Safari */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* IE10+/Edge */
+    user-select: none;
+    /* Standard */
+}
+
+#Scene_4_b_slider {
+    cursor: ew-resize;
+}
+
+#Scene_4_slider {
+    cursor: pointer;
+}
+
+#title_text {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-size: 30px;
+    color: #eccc4f;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    transform: translateY(-60px);
+    transition: transform 2.5s cubic-bezier(0.85, 0, 0.23, 1);
+}
+
+#title_text.enter {
+    transition: transform 2.5s cubic-bezier(0.01, 0.83, 0.31, 0.985);
+    transform: translateY(0px);
+}
